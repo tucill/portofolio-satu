@@ -5,6 +5,10 @@
   padding: 0;
 }
 
+html {
+  font-family: "Lucida Sans", Arial, Verdana, sans-serif;
+}
+
 /* Header */
 header {
   display: flex;
@@ -31,4 +35,44 @@ header .menu a {
 header .logo:hover,
 header .menu a:hover {
   color: #e5e1da;
+}
+
+/* Hero */
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  background-image: linear-gradient(to bottom, #89a8b2 15%, #b3c8cf 90%);
+  width: 100%;
+  height: 50vh;
+  padding: 1rem;
+  text-align: center;
+}
+
+.hero h1 {
+  color: #e5e1da;
+  font-size: 3rem;
+}
+
+.hero p {
+  color: #f1f0e8;
+  font-size: 1.5rem;
+}
+
+.hero button {
+  background-color: #f1f0e8;
+  color: #89a8b2;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s;
+  align-self: center;
+}
+
+.hero button:hover {
+  background-color: #e5e1da;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
 }
