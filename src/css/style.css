@@ -4,3 +4,31 @@
   margin: 0;
   padding: 0;
 }
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #89a8b2;
+  padding: 0.5rem 5%;
+}
+
+header .logo {
+  color: #f1f0e8;
+  font-size: 1.7rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  cursor: pointer;
+}
+
+header .menu a {
+  color: #f1f0e8;
+  text-decoration: none;
+  font-family: sans-serif;
+  margin-right: 0.3rem;
+}
+
+header .logo:hover,
+header .menu a:hover {
+  color: #e5e1da;
+}
