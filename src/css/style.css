@@ -45,7 +45,7 @@ header .menu a:hover {
   gap: 1rem;
   background-image: linear-gradient(to bottom, #89a8b2 15%, #b3c8cf 90%);
   width: 100%;
-  height: 50vh;
+  height: 90vh;
   padding: 1rem;
   text-align: center;
 }
@@ -75,4 +75,45 @@ header .menu a:hover {
 .hero button:hover {
   background-color: #e5e1da;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+/* About */
+
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 0.8rem;
+  background-color: #b3c8cf;
+  padding: 1rem;
+}
+
+.about img {
+  width: 250px;
+  height: 250px;
+  border: 2px solid #f1f0e8;
+  border-radius: 50%;
+}
+
+.about .text {
+  max-width: 700px;
+}
+
+.about .text h3 {
+  color: #555;
+  font-size: 3rem;
+}
+
+.about .text div {
+  max-width: 400px;
+  height: 3px;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-top: 0.7rem;
+}
+
+.about .text p {
+  color: #555;
+  margin-top: 0.7rem;
+  font-size: 1.5rem;
+  line-height: 1.2;
 }
