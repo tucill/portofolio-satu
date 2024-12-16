@@ -117,3 +117,61 @@ header .menu a:hover {
   font-size: 1.5rem;
   line-height: 1.2;
 }
+
+/* Skills */
+.skills {
+  background-image: linear-gradient(to bottom, #b3c8cf 15%, #f1f0e8 90%);
+  margin: 0 auto;
+  padding: 1rem;
+  text-align: center;
+}
+
+.skills h2 {
+  color: #555;
+  margin-top: 3rem;
+  font-size: 3.5rem;
+}
+
+.skills .card {
+  display: grid;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.skills .card .item {
+  background-color: #f1f0e8;
+  width: 100%;
+  max-width: 300px;
+  margin-top: 2.5rem;
+  padding: 0.8rem;
+  border-radius: 0 0.8rem;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.skills .card .item i {
+  margin-bottom: 1.2rem;
+  font-size: 6rem;
+}
+
+.skills .card .item .html {
+  color: rgb(253, 28, 28);
+}
+
+.skills .card .item .css {
+  color: rgb(52, 52, 255);
+}
+
+.skills .card .item .js {
+  color: rgb(214, 214, 0);
+}
+
+.skills .card .item h3 {
+  color: #333;
+  font-size: 2.5rem;
+}
+
+.skills .card .item p {
+  color: #89a8b2;
+  font-size: 1.5rem;
+}
