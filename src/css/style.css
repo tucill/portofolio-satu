@@ -238,3 +238,27 @@ header .menu a:hover {
   color: #333;
   border: 1px solid #333;
 }
+
+/* Footer */
+footer {
+  background-image: linear-gradient(to top, #89a8b2 45%, #b3c8cf 90%);
+  padding: 1.5rem;
+  text-align: center;
+}
+
+footer .icons {
+  margin-top: 2rem;
+}
+
+footer .icons a {
+  color: #f1f0e8;
+  margin-right: 0.5rem;
+  font-size: 2rem;
+}
+
+footer p {
+  color: #f1f0e8;
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+}
