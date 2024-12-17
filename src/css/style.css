@@ -175,3 +175,66 @@ header .menu a:hover {
   color: #89a8b2;
   font-size: 1.5rem;
 }
+
+/* Contact */
+.contact {
+  background-image: linear-gradient(to bottom, #f1f0e8 15%, #b3c8cf 90%);
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.contact h2 {
+  color: #333;
+  margin-top: 5rem;
+  font-size: 3rem;
+}
+
+.contact form {
+  margin-top: 2.5rem;
+}
+
+.contact form .form-contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.3rem;
+  margin-top: 0.5rem;
+}
+
+.contact form .form-contact label {
+  color: #333;
+  font-size: 1.5rem;
+}
+
+.contact form .form-contact input {
+  color: #333;
+  width: 50%;
+  height: 2.5rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+.contact form textarea {
+  color: #333;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  width: 50%;
+}
+
+.contact form .send {
+  background-color: #f1f0e8;
+  color: #89a8b2;
+  padding: 0.4rem 1.5rem;
+  margin-top: 0.5rem;
+  border: 1px solid #89a8b2;
+  border-radius: 0.45rem;
+  font-weight: bolder;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.contact form .send:hover {
+  color: #333;
+  border: 1px solid #333;
+}
